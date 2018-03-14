@@ -10,6 +10,13 @@ Very spartan and opinionated Web / REST interface for downloading youtube videos
 
 ## How to use this image
 
+### Creating a user account
+Run this command with your desired username and password then paste the results in auth.json:
+
+```shell
+python generate-md5.py "user" "password"
+```
+
 ### Run on host networking
 
 This example uses host networking for simplicity. Also note the `-v` argument. This directory will be used to output the resulting videos
